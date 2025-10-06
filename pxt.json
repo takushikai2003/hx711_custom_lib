@@ -1,0 +1,35 @@
+{
+    "name": "hx711_custom_lib",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "HX711": "github:daferdur/pxt-myHX711#v1.0.18",
+        "radio-broadcast": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.blocks",
+        "custom_hx711.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "stable8.0",
+        "tag": "v8.0.16",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/70751e3ce10c755c0c803f5669b12b52539ce5b0",
+        "target": "8.0.16",
+        "pxt": "12.0.16",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "ignoreConflicts": true
+    }
+}
