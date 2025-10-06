@@ -2,17 +2,14 @@
     "name": "hx711_custom_lib",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*",
-        "HX711": "github:daferdur/pxt-myHX711#v1.0.18",
-        "radio-broadcast": "*"
+        "core": "*"
     },
     "files": [
         "main.ts",
         "README.md",
         "main.blocks",
-        "custom_hx711.ts"
+        "custom_hx711.ts",
+        "hx711.ts"
     ],
     "testFiles": [
         "test.ts"
