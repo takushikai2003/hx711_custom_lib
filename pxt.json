@@ -5,11 +5,10 @@
         "core": "*"
     },
     "files": [
-        "main.ts",
         "README.md",
-        "main.blocks",
         "custom_hx711.ts",
-        "hx711.ts"
+        "hx711.ts",
+        "main.ts"
     ],
     "testFiles": [
         "test.ts"
